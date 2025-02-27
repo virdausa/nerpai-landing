@@ -1,6 +1,6 @@
 import { ctaDetails } from "@/data/cta"
 
-import AppStoreButton from "./AppStoreButton"
+import AppStoreButton from "./RegisterNowButton"
 import PlayStoreButton from "./PlayStoreButton"
 
 const CTA: React.FC = () => {

@@ -10,7 +10,7 @@ interface Props {
 }
 
 const PricingColumn: React.FC<Props> = ({ tier, highlight, index }: Props) => {
-  const { name, price, features } = tier;
+  const { name, price, features, description } = tier;
 
   return (
     <div
