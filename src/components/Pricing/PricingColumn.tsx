@@ -6,10 +6,9 @@ import { IPricing } from "@/types";
 interface Props {
   tier: IPricing;
   highlight?: boolean;
-  index?: number;
 }
 
-const PricingColumn: React.FC<Props> = ({ tier, highlight, index }: Props) => {
+const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
   const { name, price, features, description } = tier;
 
   return (
@@ -40,11 +39,7 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight, index }: Props) => {
       </div>
       <div className="p-6 mt-1">
         <p className="font-bold mb-0">FEATURES</p>
-        <p className="text-foreground-accent mb-5">
-          {index === 0
-            ? "All of these features, for free!"
-            : "Everything in basic, plus..."}
-        </p>
+        <p className="text-foreground-accent mb-5">{description}</p>
         <ul className="space-y-4 mb-8">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center">
