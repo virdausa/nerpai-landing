@@ -47,10 +47,10 @@ export const childVariants = {
 };
 
 const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
-  const { title, description, imageSrc, bullets } = benefit;
+  const { title, description, imageSrc, bullets, id } = benefit;
 
   return (
-    <section className="benefit-section">
+    <section id={id} className="benefit-section">
       <motion.div
         className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:gap-20 lg:flex-nowrap mb-24"
         variants={containerVariants}
@@ -99,8 +99,8 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
             <Image
               src={imageSrc}
               alt="title"
-              width="384"
-              height="762"
+              width="1024"
+              height="768"
               quality={100}
               className="lg:ml-0"
             />

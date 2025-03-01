@@ -10,6 +10,7 @@ export interface IBenefit {
   description: string;
   imageSrc: string;
   bullets: IBenefitBullet[];
+  id: string;
 }
 
 export interface IBenefitBullet {
