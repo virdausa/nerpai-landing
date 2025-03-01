@@ -99,8 +99,8 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
             <Image
               src={imageSrc}
               alt="title"
-              width="1024"
-              height="768"
+              width="512"
+              height="512"
               quality={100}
               className="lg:ml-0"
             />

@@ -38,7 +38,7 @@ export const benefits: IBenefit[] = [
         icon: <FiBarChart2 size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-1.webp",
+    imageSrc: "/images/growth.webp",
   },
   {
     title: "Multi Company Management",
@@ -65,7 +65,34 @@ export const benefits: IBenefit[] = [
         icon: <FiTrendingUp size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-2.webp",
+    imageSrc: "/images/companies.webp",
+  },
+  {
+    title: "Multi Stores",
+    id: "multi-stores",
+    description:
+      "Designed specifically for managing multiple store locations, our platform offers tailored tools to monitor performance, inventory, and customer interactions across all your outlets.",
+    bullets: [
+      {
+        title: "Centralized Store Dashboard",
+        description:
+          "View and manage all your stores from a single, comprehensive interface.",
+        icon: <FiPieChart size={26} />,
+      },
+      {
+        title: "Customizable Analytics",
+        description:
+          "Gain deep insights with store-specific performance metrics and reports.",
+        icon: <FiBarChart2 size={26} />,
+      },
+      {
+        title: "Seamless Store Integration",
+        description:
+          "Effortlessly add, modify, and synchronize multiple store locations within your company.",
+        icon: <FiLock size={26} />,
+      },
+    ],
+    imageSrc: "/images/stores.webp",
   },
   {
     title: "Third Party Integration",
@@ -92,6 +119,6 @@ export const benefits: IBenefit[] = [
         icon: <FiShield size={26} />,
       },
     ],
-    imageSrc: "/images/mockup-3.webp",
+    imageSrc: "/images/integration.webp",
   },
 ];
