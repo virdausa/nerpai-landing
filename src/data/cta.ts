@@ -1,6 +1,6 @@
+import { siteDetails } from "./siteDetails";
+
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
-}
+  heading: "Join Over 50 Successful Companies To Transform Your Businesses",
+  subheading: `Your journey to an effortless inventory management. Register to ${siteDetails.siteName} today and take the first step towards a more profittable future!`,
+};
