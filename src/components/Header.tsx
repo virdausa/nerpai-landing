@@ -96,7 +96,7 @@ const Header: React.FC = () => {
             ))}
             <li>
               <Link
-                href="#cta"
+                href="https://app.nerpai.space"
                 className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"
                 onClick={toggleMenu}
               >
