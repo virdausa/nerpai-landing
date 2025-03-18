@@ -15,7 +15,7 @@ export const tiers: IPricing[] = [
   },
   {
     name: "Pro",
-    price: "$5-$100/mo",
+    price: "99k-1999k/mo",
     description: "Everything in basic, plus...",
     features: [
       "Increase Companies limit to 10",

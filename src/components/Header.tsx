@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             ))}
             <li>
               <Link
-                href="https://app.nerpai.space"
+                href="https://bodo.nerpai.space"
                 className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
               >
                 Register Now!
@@ -96,7 +96,7 @@ const Header: React.FC = () => {
             ))}
             <li>
               <Link
-                href="https://app.nerpai.space"
+                href="https://bodo.nerpai.space"
                 className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"
                 onClick={toggleMenu}
               >
